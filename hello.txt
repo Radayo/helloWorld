@@ -19,3 +19,11 @@ git add hello.txt
 # Commit the corrected version with a description
 git commit -m "Fix the typo: Correct 'Hello Wrold' to 'Hello World!'"
   
+# Add your name to the end of the file
+echo "Yoan" >> hello.txt
+
+# Add the modified file to the staging area
+git add hello.txt
+
+# Commit the changes with a description
+git commit -m "Add author's name to hello.txt"
