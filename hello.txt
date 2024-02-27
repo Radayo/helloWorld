@@ -10,4 +10,12 @@ git add hello.txt
 # Commit the initial version with a description
 git commit -m "Initial commit: Add hello.txt file with intentional typo"
 
+# Correct the typo
+sed -i 's/Wrold/World/' hello.txt
+
+# Add the corrected file to the staging area
+git add hello.txt
+
+# Commit the corrected version with a description
+git commit -m "Fix the typo: Correct 'Hello Wrold' to 'Hello World!'"
   
